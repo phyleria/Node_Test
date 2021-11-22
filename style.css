@@ -34,3 +34,16 @@
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+/*Home*/
+#home{
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url();
+}
